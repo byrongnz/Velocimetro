@@ -21,8 +21,8 @@ class Auto {
         velocidad = Velocidades(velocidadInicial: Velocidades.Apagado)
     }
     func cambioDeVelocidad() -> (actual: Int, velocidadEnCadena: String){
-        //velocidad = velocidad.siguienteVelocidad()
         var velo: String = ""
+        
         switch velocidad.rawValue {
         case 0:
             velo = "Apagado"
