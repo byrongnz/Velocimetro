@@ -44,7 +44,7 @@ class Auto {
         default: break
             
         }
-        return (actual: velocidad.rawValue, velo)
+        return (actual: velocidad.rawValue,velocidadEnCadena: velo)
     }
 }
 
