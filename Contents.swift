@@ -27,20 +27,20 @@ class Auto {
         case 0:
             velo = "Apagado"
             velocidad = .VelocidadBaja
-            return (actual: 0, velo)
+            return (actual: 0, velocidadEnCadena: velo)
             
         case 20:
             velo = "Velocidad baja"
             velocidad = .VelocidadMedia
-            return (actual: 20, velo)
+            return (actual: 20,velocidadEnCadena: velo)
         case 50:
             velo = "Velocidad media"
             velocidad = .VelocidadAlta
-            return (actual: 50, velo)
+            return (actual: 50,velocidadEnCadena: velo)
         case 120:
             velo = "Velocidad alta"
             velocidad = .VelocidadMedia
-            return (actual: 120, velo)
+            return (actual: 120,velocidadEnCadena: velo)
         default: break
             
         }
